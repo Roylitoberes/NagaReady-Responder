@@ -1,0 +1,96 @@
+name: responder_app
+description: "Emergency SMS Alert Reader App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ============================================================
+  # UI
+  # ============================================================
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+  # ============================================================
+  # SMS & PERMISSIONS
+  # ============================================================
+  flutter_sms_inbox: ^1.0.5
+  permission_handler: ^11.3.1
+
+  # ============================================================
+  # LOCATION & MAPS
+  # ============================================================
+    # ============================================================
+  # LOCATION & MAPS
+  # ============================================================
+  location: ^6.0.1
+  geolocator: ^13.0.1          # ⭐ ADD THIS LINE — one-shot high-accuracy GPS
+  url_launcher: ^6.3.0
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.0
+
+  # Used to request the road route from OSRM
+  http: ^1.5.0
+
+  # ============================================================
+  # NOTIFICATIONS
+  # ============================================================
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  firebase_messaging: ^15.2.10
+  # ============================================================
+  # STATE MANAGEMENT & STORAGE
+  # ============================================================
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  flutter_foreground_task: ^8.17.0
+
+  # ============================================================
+  # UTILITIES
+  # ============================================================
+  intl: ^0.19.0
+  connectivity_plus: ^6.0.3
+  logger: ^2.3.0
+
+  # ============================================================
+  # FIREBASE
+  # ============================================================
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.3.4
+  firebase_analytics: ^11.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assests/images/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assests/images/app_icon.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "lib/assests/images/app_icon.png"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  android: true
+  ios: true
+  android_12:
+    color: "#FFFFFF"

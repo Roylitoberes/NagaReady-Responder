@@ -1,0 +1,65 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Flutter and Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+
+# Android generated files
+/android/app/debug
+/android/app/profile
+/android/app/release
+android/.gradle/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Firebase private credentials
+**/serviceAccountKey.json
+**/*service-account*.json
+**/firebase-adminsdk-*.json
+functions/.secret.local
+.firebase/
+firebase-debug.log
+
+# Android signing credentials
+android/key.properties
+*.jks
+*.keystore
+
+# Node dependencies
+**/node_modules/
+
+# Generated platform files
+ios/Flutter/.last_build_id
+**/build/
+android/app/google-services .json

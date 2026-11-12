@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "731882278333",
+    "project_id": "capstone-fe988",
+    "storage_bucket": "capstone-fe988.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731882278333:android:e598c0fc33e3265984d6d4",
+        "android_client_info": {
+          "package_name": "com.nagaready.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731882278333-ntf1nkeh4sjsr6b9i4fk83ktr1f7i1op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDatcY_KIr6lT5BZCt2M5LYb7j8WvwHJtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731882278333-ntf1nkeh4sjsr6b9i4fk83ktr1f7i1op.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
